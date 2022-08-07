@@ -1,0 +1,323 @@
+*{/*CSS RESET*/
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    background-color:rgb(50, 50, 50);
+}
+
+header{
+    width: 960px;
+    height: 150px;
+    border: 2px solid #fff;
+    background-size: 960px 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url(img/3.gif);
+    background-repeat:no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 400px 200px;
+    background-color: #000;
+}
+
+#a1{
+    width: 350px;
+    height: 30px;
+    border: 2px solid #fff;
+    margin-left: 600px;
+    margin-top: 5px;
+    background-color:rgb(50, 50, 50);
+}
+
+    #a1 h3{
+        color: #fff;
+        font-size: large;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+#a2{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #fff;
+    margin-left: 100px;
+    margin-top: -30px;
+    border-radius: 60px;
+    background-image: url(img/4.jpg);
+    background-position: top;
+    background-size: 100% 100%;
+}
+
+nav{
+    width: 964px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 318px;
+    margin: 0 auto;
+}
+
+#n1{
+   width: 48%; 
+   height: 52px;
+   border-bottom: 2px solid #fff;
+   float: left;
+   margin-top: 10px;
+   box-shadow: #eee8e8 1px 2px 1px 0px;
+
+}
+
+    #n1 h2{
+        color: #fff;
+        font-size: xx-large;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+#n2{
+   width: 48%; 
+   height: 52x;
+   border: 0px solid #fff;
+   float: right;
+   margin-top: 10px;
+}
+    #n2 h4{
+        color: #fff;
+        font-size: medium;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+
+main{
+    width: 962px;
+    height: 482px;
+    border: 0px solid #000;
+    background-size: 960px 150px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+#aside1{
+    border: 0px solid #fff;
+    width: 20%;
+    height: 480px;
+    margin-top: 10px;
+    margin-left: 0px;
+    float: left;
+}
+
+#s3{
+    width:92%;
+    height: 225px;
+    border: #fff solid 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-image: url(img/5.webp);
+    background-size: 100% 100%;
+}
+
+    #s3 p{
+        color: #fff;
+        font-size: small;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+#s4{
+    width:92%;
+    height: 225px;
+    border: #fff solid 0px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+    #s4 a{
+        margin-left: 21px;
+    }
+    #s4 p{
+        color: #fff;
+        font-size: small;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+#aside2{
+    border: 0px solid #fff;
+    width: 20%;
+    height: 480px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 10px;
+    /* margin-top: 484px; */
+    float: right;
+    margin-bottom: 10px;
+}
+         /*----------------------------------------------------------------------------------------------------------------------------------------------------  */
+          /* This container is needed to position the front and back side */
+          .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+
+          }
+          
+          /* Do an horizontal flip when you move the mouse over the flip box container */
+          .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+          }
+          
+          /* Position the front and back side */
+          .flip-box-front, .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden; /* Safari */
+            backface-visibility: hidden;
+          }
+          
+          /* Style the front side (fallback if image is missing) */
+          .flip-box-front {
+            background-color: #bbb;
+            color: black;
+          }
+          
+          /* Style the back side */
+          .flip-box-back {
+            background-color: dodgerblue;
+            color: white;
+            transform: rotateY(180deg);
+          }
+        /*-----------------------------------------------------------------------------------------------------------------------------------------------------  */
+#a3{
+    border: 0px solid #fff;
+    width: 50%;
+    height: 480px;
+    margin-top: 10px;
+    margin-left: 44px;
+    float: left;
+
+}
+
+#s5{
+    border: 0px solid #fff;
+    width: 45%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+    #s5 p{
+        color: #fff;
+        font-size: medium;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+#s6{
+    border: 0px solid #fff;
+    width: 45%;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+}
+
+#s7{
+    border: 0px solid #fff;
+    width: 45%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+    #s7 p{
+        color: #fff;
+        font-size: medium;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+#s8{
+    border: 0px solid #fff;
+    width: 45%;
+    height: 149px;
+    margin-right: 5px;
+    margin-top: 7px;
+    float: right;
+}
+
+    #s8 p{
+        color: #fff;
+        font-size: medium;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+
+
+#s9{
+    border: 0px solid #fff;
+    width: 45%;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+    #s9 p{
+        color: #fff;
+        font-size: medium;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+#s10{
+    border: 0px solid #fff;
+    width: 45%;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+}
+
+    #s10 p{
+        color: #fff;
+        font-size: medium;
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+footer{
+        width: 960px;
+        height: 40px;
+        border: 2px solid rgb(241, 241, 241);
+        margin: 0 auto;
+        clear: both;
+        margin-top: 502px;
+        background-color: #babaca;
+}
+
+footer p{
+    color: #000;
+    font-size: medium;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
